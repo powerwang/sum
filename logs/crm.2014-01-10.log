@@ -1,0 +1,4 @@
+16:05:10.022 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+16:05:10.205 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+16:05:10.212 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+16:05:10.224 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.

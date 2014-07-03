@@ -1,0 +1,5 @@
+10:57:57.896 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+10:57:58.009 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+10:57:58.016 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+10:57:58.027 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+10:57:58.559 [main] INFO  cn.wm.sum.monitor.TelnentServlet - 开启ServletContextListener

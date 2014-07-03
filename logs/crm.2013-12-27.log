@@ -1,0 +1,44 @@
+13:58:42.212 [main] ERROR o.s.web.context.ContextLoader - Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'sessionFactory' defined in URL [file:/D:/eclipse_works/sum/target/classes/applicationContext.xml]: Could not resolve placeholder 'hibernate.dialect' in string value "${hibernate.dialect}"
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:209) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.config.PropertyPlaceholderConfigurer.processProperties(PropertyPlaceholderConfigurer.java:220) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:84) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:694) ~[spring-context-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:669) ~[spring-context-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:461) ~[spring-context-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:389) ~[spring-web-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:294) ~[spring-web-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112) [spring-web-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:549) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:136) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50) [jetty-util-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.Server.doStart(Server.java:224) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50) [jetty-util-6.1.26.jar:6.1.26]
+	at runjettyrun.Bootstrap.main(Bootstrap.java:97) [run-jetty-run-bootstrap.jar:na]
+13:59:28.767 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+13:59:29.407 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+13:59:29.413 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+13:59:29.424 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+13:59:32.702 [main] INFO  cn.wm.sum.monitor.TelnentServlet - 开启ServletContextListener
+14:00:25.405 [16536127@qtp-7525272-6] WARN  o.h.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 64.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+14:00:25.613 [16536127@qtp-7525272-6] INFO  c.w.s.s.s.c.CaptchaFormAuthenticationFilter - admin登录成功
+14:03:13.713 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+14:03:13.830 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+14:03:13.839 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+14:03:13.852 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+14:03:14.394 [main] INFO  cn.wm.sum.monitor.TelnentServlet - 开启ServletContextListener
+14:03:40.512 [20304267@qtp-7525272-0] WARN  o.h.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 64.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+14:03:40.611 [20304267@qtp-7525272-0] INFO  c.w.s.s.s.c.CaptchaFormAuthenticationFilter - admin登录成功
+14:07:50.640 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+14:07:50.764 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+14:07:50.772 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+14:07:50.784 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+14:07:51.394 [main] INFO  cn.wm.sum.monitor.TelnentServlet - 开启ServletContextListener
+14:09:05.157 [7784864@qtp-7525272-4] WARN  o.h.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 64.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+14:09:05.368 [7784864@qtp-7525272-4] INFO  c.w.s.s.s.c.CaptchaFormAuthenticationFilter - admin登录成功
+14:09:05.411 [7784864@qtp-7525272-4] WARN  o.h.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 68.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+14:09:05.443 [7784864@qtp-7525272-4] WARN  o.h.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 50.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.

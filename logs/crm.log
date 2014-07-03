@@ -1,0 +1,189 @@
+09:33:41.611 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+09:33:41.748 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+09:33:41.755 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+09:33:41.774 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+09:35:36.534 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+09:35:36.670 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+09:35:36.681 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+09:35:36.703 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+09:40:57.907 [178546644@qtp-1024377251-0] WARN  o.h.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 68.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+09:40:57.955 [178546644@qtp-1024377251-0] WARN  o.h.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 50.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+09:40:59.710 [178546644@qtp-1024377251-0] WARN  o.h.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 64.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+09:44:21.165 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+09:44:21.340 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+09:44:21.351 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+09:44:21.374 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+09:44:35.302 [1036083975@qtp-1337181145-0] WARN  o.h.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 64.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+09:48:37.304 [1036083975@qtp-1337181145-0] ERROR o.s.w.servlet.tags.form.TextareaTag - Neither BindingResult nor plain target object for bean name 'newTask' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'newTask' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:141) ~[spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:179) ~[spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:165) ~[spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:128) ~[spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:421) ~[spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.tags.form.TextareaTag.writeTagContent(TextareaTag.java:96) ~[spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:103) ~[spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:80) ~[spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.apache.jsp.WEB_002dINF.views.task.taskForm_jsp._jspx_meth_form_textarea_0(org.apache.jsp.WEB_002dINF.views.task.taskForm_jsp:217) [jsp/:na]
+	at org.apache.jsp.WEB_002dINF.views.task.taskForm_jsp._jspService(org.apache.jsp.WEB_002dINF.views.task.taskForm_jsp:113) [jsp/:na]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93) [jsp-2.1.jar:6.1.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820) [servlet-api-2.5-20081211.jar:na]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373) [jsp-2.1.jar:6.1.6]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:470) [jsp-2.1.jar:6.1.6]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:364) [jsp-2.1.jar:6.1.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820) [servlet-api-2.5-20081211.jar:na]
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:401) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.servlet.Dispatcher.forward(Dispatcher.java:327) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.servlet.Dispatcher.forward(Dispatcher.java:126) [jetty-6.1.26.jar:6.1.26]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:238) [spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:263) [spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1208) [spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:992) [spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:939) [spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856) [spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936) [spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:827) [spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [servlet-api-2.5-20081211.jar:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812) [spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820) [servlet-api-2.5-20081211.jar:na]
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221) [jetty-6.1.26.jar:6.1.26]
+	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.obtainContent(SiteMeshFilter.java:129) [sitemesh-2.4.2.jar:na]
+	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.doFilter(SiteMeshFilter.java:77) [sitemesh-2.4.2.jar:na]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212) [jetty-6.1.26.jar:6.1.26]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) [shiro-web-1.2.2.jar:1.2.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [shiro-web-1.2.2.jar:1.2.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [shiro-web-1.2.2.jar:1.2.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.2.2.jar:1.2.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [shiro-web-1.2.2.jar:1.2.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) [shiro-web-1.2.2.jar:1.2.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) [shiro-web-1.2.2.jar:1.2.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) [shiro-core-1.2.2.jar:1.2.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) [shiro-core-1.2.2.jar:1.2.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) [shiro-core-1.2.2.jar:1.2.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) [shiro-web-1.2.2.jar:1.2.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.2.2.jar:1.2.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346) [spring-web-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259) [spring-web-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212) [jetty-6.1.26.jar:6.1.26]
+	at org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter.doFilterInternal(OpenEntityManagerInViewFilter.java:180) [spring-orm-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212) [jetty-6.1.26.jar:6.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.Server.handle(Server.java:326) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582) [jetty-util-6.1.26.jar:6.1.26]
+09:49:35.812 [548440461@qtp-1337181145-5] ERROR o.s.w.servlet.tags.form.TextareaTag - Neither BindingResult nor plain target object for bean name 'newTask' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'newTask' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:141) ~[spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:179) ~[spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:165) ~[spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:128) ~[spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:421) ~[spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.tags.form.TextareaTag.writeTagContent(TextareaTag.java:96) ~[spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:103) ~[spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:80) ~[spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.apache.jsp.WEB_002dINF.views.task.taskForm_jsp._jspx_meth_form_textarea_0(org.apache.jsp.WEB_002dINF.views.task.taskForm_jsp:217) [jsp/:na]
+	at org.apache.jsp.WEB_002dINF.views.task.taskForm_jsp._jspService(org.apache.jsp.WEB_002dINF.views.task.taskForm_jsp:113) [jsp/:na]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:93) [jsp-2.1.jar:6.1.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820) [servlet-api-2.5-20081211.jar:na]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:373) [jsp-2.1.jar:6.1.6]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:470) [jsp-2.1.jar:6.1.6]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:364) [jsp-2.1.jar:6.1.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820) [servlet-api-2.5-20081211.jar:na]
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:401) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.servlet.Dispatcher.forward(Dispatcher.java:327) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.servlet.Dispatcher.forward(Dispatcher.java:126) [jetty-6.1.26.jar:6.1.26]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:238) [spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:263) [spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1208) [spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:992) [spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:939) [spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856) [spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936) [spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:827) [spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [servlet-api-2.5-20081211.jar:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812) [spring-webmvc-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820) [servlet-api-2.5-20081211.jar:na]
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221) [jetty-6.1.26.jar:6.1.26]
+	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.obtainContent(SiteMeshFilter.java:129) [sitemesh-2.4.2.jar:na]
+	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.doFilter(SiteMeshFilter.java:77) [sitemesh-2.4.2.jar:na]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212) [jetty-6.1.26.jar:6.1.26]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) [shiro-web-1.2.2.jar:1.2.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [shiro-web-1.2.2.jar:1.2.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [shiro-web-1.2.2.jar:1.2.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.2.2.jar:1.2.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [shiro-web-1.2.2.jar:1.2.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) [shiro-web-1.2.2.jar:1.2.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) [shiro-web-1.2.2.jar:1.2.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) [shiro-core-1.2.2.jar:1.2.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) [shiro-core-1.2.2.jar:1.2.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) [shiro-core-1.2.2.jar:1.2.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) [shiro-web-1.2.2.jar:1.2.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.2.2.jar:1.2.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346) [spring-web-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259) [spring-web-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212) [jetty-6.1.26.jar:6.1.26]
+	at org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter.doFilterInternal(OpenEntityManagerInViewFilter.java:180) [spring-orm-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212) [jetty-6.1.26.jar:6.1.26]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.Server.handle(Server.java:326) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582) [jetty-util-6.1.26.jar:6.1.26]
+09:50:06.273 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+09:50:06.398 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+09:50:06.411 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+09:50:06.429 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+09:51:02.772 [666858791@qtp-2038170764-0] WARN  o.h.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 64.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+09:51:07.188 [666858791@qtp-2038170764-0] WARN  o.h.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 68.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+09:51:07.193 [666858791@qtp-2038170764-0] WARN  o.h.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 50.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+09:52:47.291 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+09:52:47.448 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+09:52:47.455 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+09:52:47.469 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+09:52:52.724 [863459257@qtp-343697155-0] WARN  o.h.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 64.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+09:56:34.352 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+09:56:34.528 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+09:56:34.538 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+09:56:34.553 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+09:56:44.367 [1612729620@qtp-1934557302-0] WARN  o.h.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 64.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.

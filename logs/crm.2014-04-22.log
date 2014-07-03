@@ -1,0 +1,101 @@
+23:03:52.901 [main] ERROR o.s.web.context.ContextLoader - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroFilter' defined in URL [file:/D:/eclipse_works/sum/target/classes/shiro/applicationContext-shiro.xml]: Cannot resolve reference to bean 'securityManager' while setting bean property 'securityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityManager' defined in URL [file:/D:/eclipse_works/sum/target/classes/shiro/applicationContext-shiro.xml]: Cannot resolve reference to bean 'shiroDbRealm' while setting bean property 'realm'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [cn.wm.sum.security.shiro.service.ShiroDbRealm] for bean with name 'shiroDbRealm' defined in URL [file:/D:/eclipse_works/sum/target/classes/shiro/applicationContext-shiro.xml]; nested exception is java.lang.ClassNotFoundException: cn.wm.sum.security.shiro.service.ShiroDbRealm
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:329) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:107) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1387) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1128) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:753) ~[spring-context-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:464) ~[spring-context-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:389) ~[spring-web-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:294) ~[spring-web-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112) [spring-web-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:549) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:136) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50) [jetty-util-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.jetty.Server.doStart(Server.java:224) [jetty-6.1.26.jar:6.1.26]
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50) [jetty-util-6.1.26.jar:6.1.26]
+	at runjettyrun.Bootstrap.main(Bootstrap.java:97) [run-jetty-run-bootstrap.jar:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityManager' defined in URL [file:/D:/eclipse_works/sum/target/classes/shiro/applicationContext-shiro.xml]: Cannot resolve reference to bean 'shiroDbRealm' while setting bean property 'realm'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [cn.wm.sum.security.shiro.service.ShiroDbRealm] for bean with name 'shiroDbRealm' defined in URL [file:/D:/eclipse_works/sum/target/classes/shiro/applicationContext-shiro.xml]; nested exception is java.lang.ClassNotFoundException: cn.wm.sum.security.shiro.service.ShiroDbRealm
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:329) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:107) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1387) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1128) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:323) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [cn.wm.sum.security.shiro.service.ShiroDbRealm] for bean with name 'shiroDbRealm' defined in URL [file:/D:/eclipse_works/sum/target/classes/shiro/applicationContext-shiro.xml]; nested exception is java.lang.ClassNotFoundException: cn.wm.sum.security.shiro.service.ShiroDbRealm
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1275) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:435) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:323) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	... 34 common frames omitted
+Caused by: java.lang.ClassNotFoundException: cn.wm.sum.security.shiro.service.ShiroDbRealm
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366) ~[na:1.7.0_45]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355) ~[na:1.7.0_45]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.7.0_45]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354) ~[na:1.7.0_45]
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:392) ~[jetty-6.1.26.jar:6.1.26]
+	at runjettyrun.ProjectClassLoader.loadClass(ProjectClassLoader.java:89) ~[run-jetty-run-bootstrap.jar:na]
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:260) ~[spring-core-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:416) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1296) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1267) ~[spring-beans-3.2.3.RELEASE.jar:3.2.3.RELEASE]
+	... 40 common frames omitted
+21:42:54.877 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+21:42:55.204 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+21:42:55.210 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+21:42:55.221 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+21:53:52.594 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+21:53:52.735 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+21:53:52.742 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+21:53:52.755 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+21:59:22.609 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+21:59:22.758 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+21:59:22.768 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+21:59:22.805 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+22:01:18.947 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+22:01:19.097 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+22:01:19.104 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+22:01:19.137 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+22:02:01.433 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+22:02:01.582 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+22:02:01.589 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+22:02:01.603 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+22:08:14.133 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+22:08:14.282 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+22:08:14.289 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+22:08:14.309 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+22:09:10.684 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+22:09:10.877 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+22:09:10.887 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+22:09:10.903 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+22:09:53.743 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+22:09:53.862 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+22:09:53.869 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+22:09:53.880 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+22:10:25.957 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+22:10:26.113 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+22:10:26.122 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+22:10:26.144 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
+22:10:42.691 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User]; using defaults.
+22:10:42.805 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.Role]; using defaults.
+22:10:42.811 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.entity.Task]; using defaults.
+22:10:42.821 [main] WARN  o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [cn.wm.sum.security.shiro.entity.User.roleList]; using defaults.
